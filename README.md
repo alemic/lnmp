@@ -17,6 +17,8 @@ ReEdit by levychang <changliwei07@gmail.com>
 作者保留权力并不对文档的正确性、完整性和质量有效性负责。                   
 文档质量内容不提供任何额外保障                                             
 
+
+
 LNMP状态管理： /root/lnmp {start|stop|reload|restart|kill|status}
 LNMPA状态管理： /root/lnmpa {start|stop|reload|restart|kill|status}
 Nginx状态管理：/etc/init.d/nginx {start|stop|reload|restart}
@@ -25,11 +27,15 @@ PureFTPd状态管理： /root/pureftpd {start|stop|restart|kill|status}
 MySQL状态管理：/etc/init.d/mysql {start|stop|restart|reload|force-reload|status}
 Apache状态管理：/root/httpd {start|stop|restart|graceful|graceful-stop|configtest|status}
 
+
+
 添加虚拟主机 /root/vhost.sh
 phpinfo : http://yourIP/phpinfo.php
 phpMyAdmin : http://yourIP/phpmyadmin/
 探针 : http://yourIP/p.php
 PureFtp用户管理：http://yourIP/ftp/
+
+
 
 LNMP相关目录：
 mysql :   /data/lnmp/mysql
